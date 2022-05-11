@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu&display=swap");
+
+:root {
+	--left-bg-color: rgba(84, 87, 236, 0.7);
+	--right-bg-color: rgba(43, 43, 43, 0.8);
+	--left-btn-color: rgba(84, 87, 236, 1);
+	--right-btn-color: rgba(28, 122, 28, 1);
+	--hover-one-width: 75%;
+	--hover-other-width: 25%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	overflow: hidden;
+	margin: 0;
+}
+
+h1 {
+	font-size: 4rem;
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+}
+
+.btn {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+	text-decoration: none;
+	border: 0.3rem solid white;
+	font-size: 1rem;
+	padding: 1.5rem;
+	width: 15rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	text-transform: ;
+}
+
+.split.left .btn:hover {
+	background-color: var(--left-btn-color);
+	border-color: var(--left-btn-color);
+}
+
+.split.right .btn:hover {
+	background-color: var(--right-btn-color);
+	border-color: var(--right-btn-color);
+}
+
+.container {
+	background-color: #333;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+.split {
+	position: absolute;
+	width: 50%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.split.left {
+	left: 0;
+	background-image: url("https://raw.githubusercontent.com/bradtraversy/50projects50days/master/split-landing-page/ps.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.split.left::before {
+	content: "";
+	background-color: var(--left-bg-color);
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.split.right {
+	right: 0;
+	background-image: url("https://raw.githubusercontent.com/bradtraversy/50projects50days/master/split-landing-page/xbox.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.split.right::before {
+	content: "";
+	background-color: var(--right-bg-color);
+	position: absolute;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.hover-left .left {
+	width: var(--hover-one-width);
+}
+
+.hover-left .right {
+	width: var(--hover-other-width);
+}
+
+.hover-right .right {
+	width: var(--hover-one-width);
+}
+
+.hover-right .left {
+	width: var(--hover-other-width);
+}
+
+.split.left,
+.split.right,
+.split.right::before,
+.split.left::before {
+	transition: all 1000ms ease-in-out;
+}

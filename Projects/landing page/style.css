@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+section{
+    background-color: azure;
+    border-radius: 50px;
+    margin: 15px 0;
+}
+.navbar{
+    height: 60px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0px 12px;
+}
+.navbar li:hover{
+    cursor: pointer;
+    color: #E24937;
+}
+.top-left{
+    width: 50%;
+    margin-left: 30px;
+}
+.top-left p{
+    color: #6e6e6e;
+}
+.top-right{
+    width: 50%;
+}
+.img{
+    width: 50%;
+}
+.section-2 p{
+    width: 50%;
+    color: #6e6e6e;
+}
+.box{
+    border: 1px solid #6e6e6e;
+    min-width: 20vw;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box .head{
+    border-bottom: 1px solid #6e6e6e;
+    padding: 5px 0;
+    font-weight: 400;
+    background-color: #E24937;
+    color: #fff;
+    
+}
+.box li:first-child{
+    font-size: 2rem;
+}
+.box li{
+    list-style: none;
+    margin: 15px 0;
+}
+.box ul{
+    padding: 15px 0;
+}
+.section-3 .box1{
+    width: 50%;
+    margin: 13px 26px;
+}
+.section-3 .left2{
+   padding: 20px;
+}
+.section-3 .left2 input{
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    color: #E24937;
+    border: 1px solid #E24937;
+    font-weight: bolder;
+    outline: none;
+    padding: 10px 20px;
+    margin: 15px 0;
+    background-color: azure;
+}
+.section-3 .right2 img{
+    width: 90%;
+}
+footer{
+    font-weight: bolder;
+    padding: 20px 40px;
+    background-color: azure;
+    border-radius: 50px;
+    margin: 15px 0;
+}
+.button-deal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+.main-deal{
+    border-radius: 5px;
+    border: 1px solid #E24937;
+    margin-top: 20px;
+}
+
+.sidenav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-height: 100vh;
+    width: 170px;
+    background-color: #E24937;
+    z-index: 2;
+    transition: .5s;
+}
+.sidenav ul{
+    margin-top: 20px;
+}
+.sidenav li{
+    color: #fff;
+    list-style: none;
+    margin: 30px 20px;
+    text-transform: uppercase;
+
+}
+.sidenav a{
+    color: #fff;
+    text-decoration: none;
+}
+#menubtn{
+    display: none;
+    width: 35px;
+    position: fixed;
+    top: 16px;
+    right: 20px;
+    z-index: 3;
+}

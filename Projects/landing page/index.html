@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="mquery.css">
+
+    <title>Documents</title>
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <div class="sidenav" id="sidenav">
+            <ul class="flex ubuntu-font flex-col">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#offer">Pricing</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+        </div>
+        <img src="menu.png" alt="" id="menubtn" />
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo flex items-center ubuntu-font bold text-bl">Fitness club</div>
+                <ul class="navbar flex items-center ubuntu-font">
+                    <li>Home</li>
+                    <li>Pricing</li>
+                    <li>Login</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+        </header>
+        <hr class="h-line">
+
+        <main class="min-h-screen">
+            <section class="section-1 py-1" id="home">
+                <div class="section-content flex">
+                    <div class="top-left flex justify-center flex-col ubuntu-font px-1">
+                        <h2 class="my-1 text-bl">The best fitness Gym in the town is here</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tenetur temporibus enim
+                            architecto quaerat.</p>
+                            <div class="main-deal">
+                                <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                            <div class="button-deal">
+                                <button class="btn">Join now</button>
+                                <button class="btn">Contact Us</button>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="top-right flex items-center justify-center">
+                        <img class="img mx-auto" src="gym.png">
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section-2 py-1" id="offer">
+                <h2 class="bold my-2 text-center text-bl ubuntu-font">Pricing</h2>
+                <p class="text-center mx-auto ubuntu-font ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequuntur libero nihil ipsam, porro
+                    dolorem, odit vel! Possimus odio iste quam velit beatae sit tenetur!</p>
+                <div class="parent-box flex items-center justify-around my-2 ubuntu-font">
+                    <div class="box">
+                        <div class="head">
+                            <h2>Free</h2>
+                        </div>
+                        <ul>
+                            <li>&#8377 0/mo</li>
+                            <li>2 Days per week</li>
+                            <li>2 Lr Energy Booster</li>
+                            <li>2 minute Warm up</li>
+                            <li><button class="btn-login">Log in</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <div class="head">
+                            <h2>Pro</h2>
+                        </div>
+                        <ul>
+                            <li>&#8377 255/mo</li>
+                            <li>4 Days per week</li>
+                            <li>10 Lr Energy Booster</li>
+                            <li>20 minute Warm up</li>
+                            <li><button class="btn-login">Log in</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <div class="head">
+                            <h2>Enterprice</h2>
+                        </div>
+                        <ul>
+                            <li>&#8377 500/mo</li>
+                            <li>10 Days per week</li>
+                            <li>20 Lr Energy Booster</li>
+                            <li>30 minute Warm up</li>
+                            <li><button class="btn-login">Log in</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-3 py-1" id="login">
+                <h2 class="bold my-2 text-center text-bl ubuntu-font">Login</h2>
+                <div class="parent-box flex items-center justify-center items-center">
+                    <div class="box1 left2 flex items-center justify-center">
+                        <form action="" class="flex items-center flex-col justify-center">
+                            <input type="text" placeholder="First Name">
+                            <input type="email" placeholder="Your Email">
+                            <input type="password" placeholder="Your Password">
+                            <button class="btn-login">Log In</button>
+                        </form>
+                    </div>
+                    <div class="box1 right2">
+                        <img src="girl.png">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="ubuntu-font" id="footer">
+            Copyright &copy; Fitness club | All Right Recerved
+        </footer>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</body>
+
+</html>

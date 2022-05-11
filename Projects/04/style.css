@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		0deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 107, 121, 1) 28%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	font-family: "Ubuntu", sans-serif;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+}
+
+.search {
+	position: relative;
+	height: 3em;
+}
+
+.search .input {
+	font-family: inherit;
+	background-color: #ffff;
+	border: 0;
+	padding: 0.8em;
+	height: 3em;
+	font-size: 1.2em;
+	width: 3em;
+	transition: width 0.3s ease;
+	border-radius: 10px 0 0 10px;
+}
+.search .input:focus {
+	outline: 0;
+}
+.search.active .input {
+	width: 12em;
+}
+.btn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 1.5em;
+	height: 2.4em;
+	width: 3em;
+	background-color: #ffffff;
+	border: 0;
+	transition: transform 0.3s ease;
+	border-radius: 10px;
+}
+
+.search.active .btn {
+	transform: translateX(9em);
+}

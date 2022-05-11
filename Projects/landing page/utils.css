@@ -1,0 +1,89 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+.text-bl{
+    color: #E24937;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.flex-col{
+    flex-direction: column;
+}
+.ubuntu-font{
+    font-family: 'Ubuntu', sans-serif;
+}
+.bold{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.my-1{
+    margin: 15px 0;
+}
+.my-2{
+    margin: 30px 0;
+}
+.px-1{
+    padding: 0 15px;
+}
+.py-1{
+    padding: 15px 0;
+}
+.px-2{
+    padding: 0 30px;
+}
+.py-2{
+    padding: 30px 0;
+}
+.btn{
+    border-radius: 10px;
+    border: 0;
+    font-weight: bolder;
+    outline: none;
+    margin: 0 5px;
+    padding: 7px 14px;
+    color: #fff;
+    background-color: #E24937;
+}
+.btn-login{
+    border-radius: 10px;
+    border: 1px solid #E24937;
+    font-weight: bolder;
+    outline: none;
+    padding: 10px 0;
+    width: 90%;
+    color: #fff;
+    background-color: #E24937;
+}
+.btn-login:hover{
+    color: #E24937;
+    background-color: transparent;
+}
+.btn:hover{
+    font-weight: bolder;
+    background-color: transparent;
+    color: #E24937;
+}
+.text-center{
+    text-align: center;
+}

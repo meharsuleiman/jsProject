@@ -1,0 +1,11 @@
+/* for mobile  */
+@media only screen and (max-width: 800px) {
+	h1 {
+		font-size: 2rem;
+		top: 30%;
+	}
+	.btn {
+		width: 12rem;
+		padding: 1rem;
+	}
+}

@@ -1,0 +1,71 @@
+@media all and (max-width: 768px) {
+    .container{
+        max-width: 95%;
+    }
+    hr{
+        display: none;
+    }
+    section{
+        border-radius: 20px;
+        margin: 5px 0;
+    }
+    .navbar{
+        display: none;
+    }
+    .section-content{
+        flex-wrap: wrap;
+    }
+    .top-left{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .top-left h1{
+        margin: 30px 0px 5px;
+    }
+    .top-right{
+        flex-basis: 100%;
+    }
+    .parent-box{
+        flex-wrap: wrap;
+    }
+    .section-2 h2{
+        margin: 10px 0;
+    }
+    .section-2 p{
+        width: 90%;
+    }
+    .section-3 .left2{
+        padding: 5px;
+    }
+    .section-3 h2{
+        margin: 10px 0;
+    }
+    .section-3 .box1{
+        margin: 7px 13px;
+    }
+    .parent-box .box{
+        min-width: 75%;
+        margin-bottom: 20px;
+    }
+    .parent-box .box .head{
+        padding: 2px 0;
+    }
+    .parent-box .box .head h2{
+        margin: 2px 0;
+        font-size: 1.2rem;
+    }
+    .parent-box .box1{
+        width: 100%;
+    }
+
+    form{
+        width: 90%;
+    }
+    form .btn-login{
+        width: 100%;
+    }
+    #menubtn{
+        display: block;
+    }
+}
